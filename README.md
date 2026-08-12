@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🏦 FinSight AI — BFSI Lending, Risk & Customer Intelligence
 
 Portfolio-ready End-to-End Data Analyst Project | 2026A modern synthetic BFSI analytics platform designed to simulate a retail bank / NBFC decision-intelligence environment across lending, credit risk, collections, customer intelligence, insurance cross-sell, BI and AI-assisted insights.
@@ -719,3 +720,6 @@ This project is intentionally designed to demonstrate end-to-end analytical thin
 Business Problem → Data → SQL → Analysis → KPI → Visualization → Insight → Action
 
 The goal is not to show as many tools as possible. The goal is to show how an analyst converts messy business data into decisions.
+=======
+# BFSI-Lending-Risk-Intelligence-Platform
+>>>>>>> 15630eb84792cab023dd4cab1d2183af8cee8b19
