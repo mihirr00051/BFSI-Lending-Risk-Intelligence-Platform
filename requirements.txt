@@ -1,0 +1,7 @@
+pandas>=2.2
+numpy>=2.0
+plotly>=6.0
+streamlit>=1.44
+scikit-learn>=1.6
+python-dateutil>=2.9
+openpyxl>=3.1
