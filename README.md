@@ -1,999 +1,647 @@
 <div align="center">
 
-🚀 FinSight AI
-
-BFSI Lending • Credit Risk • Collections • Customer Intelligence
-
-Enterprise-style Decision Intelligence & Analytics Platform
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=FinSight%20AI&fontSize=72&fontColor=e94560&fontAlignY=40&desc=BFSI%20Decision%20Intelligence%20%26%20Analytics%20Platform&descSize=20&descAlignY=62&descColor=a8b2d8&animation=fadeIn" width="100%"/>
 
 <br/>
 
-
-
-
-
-
-
-
-
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)
+[![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](#)
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
+[![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](#)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](#)
 
 <br/>
 
-Portfolio Project • BFSI • Data Analytics • Business Intelligence • AI-assisted Insights
+[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
+[![Domain: BFSI](https://img.shields.io/badge/Domain-BFSI%20%7C%20FinTech-e94560?style=flat-square)](#)
+[![Type: Portfolio](https://img.shields.io/badge/Type-Portfolio%20Project-7c3aed?style=flat-square)](#)
+[![Data: Synthetic](https://img.shields.io/badge/Data-Synthetic%20Only-f59e0b?style=flat-square)](#)
+[![Status: Active](https://img.shields.io/badge/Status-Active-22c55e?style=flat-square)](#)
+
+<br/>
+
+> **Enterprise-grade BFSI Analytics · Credit Risk · Collections · Customer Intelligence**
+> 
+> *Turning raw lending data into actionable portfolio decisions — end-to-end.*
+
+<br/>
+
+[🚀 Quick Start](#-quick-start) &nbsp;|&nbsp; [📐 Architecture](#-solution-architecture) &nbsp;|&nbsp; [📊 KPI Framework](#-core-kpi-framework) &nbsp;|&nbsp; [🤖 AI Copilot](#-ai-insight-copilot) &nbsp;|&nbsp; [💼 Interview Pitch](#-interview-pitch)
 
 </div>
 
-✨ What is FinSight AI?
+---
 
-FinSight AI is a synthetic BFSI decision-intelligence platform that simulates how a retail bank or NBFC can combine:
+## 🏦 What is FinSight AI?
 
-Customers • Loans • Repayments • Transactions • Insurance
+**FinSight AI** is a synthetic BFSI Decision Intelligence platform that simulates how a **retail bank or NBFC** can unify:
 
-into one analytical workflow for portfolio management, credit risk, collections, customer intelligence, and cross-sell decisions.
+| Data Domain | Coverage |
+|---|---|
+| 👤 **Customers** | Demographics, geography, segmentation |
+| 💳 **Loans** | AUM, disbursals, DPD, risk exposure |
+| 💰 **Repayments** | Collection efficiency, collection gap |
+| 📲 **Transactions** | Customer engagement, activity signals |
+| 🛡️ **Insurance** | Cross-sell penetration, whitespace analysis |
 
-🎯 Core objective
+…into one **analytical workflow** covering Portfolio Management, Credit Risk, Collections, Customer Intelligence, and Cross-sell Decisions.
 
-Turn:
-
+```
 Business Problem → Data → Analysis → KPI → Visualization → Insight → Action
-
-into a single, interview-ready analytics solution.
-
-⚠️ Data Disclaimer: All datasets are synthetic and intended only for portfolio and learning purposes.
-
-🧭 Quick Navigation
-
-Section
-
-Section
-
-Section
-
-Business Problem
-
-Architecture
-
-Tech Stack
-
-Data Model
-
-KPI Framework
-
-Executive Dashboard
-
-AI Copilot
-
-SQL / BigQuery
-
-Power BI
-
-Tableau
-
-Testing
-
-Quick Start
-
-Interview Pitch
-
-Roadmap
-
-Author
-
-💼 Business Problem
-
-BFSI leadership needs a trusted analytical layer to answer questions such as:
-
-Business Question
-
-Analytical Area
-
-How large is the active portfolio?
-
-Portfolio Management
-
-Which products drive AUM concentration?
-
-Portfolio Mix
-
-Where is delinquency concentrated?
-
-Credit Risk
-
-Which accounts need collection priority?
-
-Collections
-
-Which customers show product whitespace?
-
-Customer Intelligence
-
-Where are insurance cross-sell opportunities?
-
-Cross-sell
-
-How can KPIs become management actions?
-
-Decision Intelligence
-
-FinSight AI connects these questions through one reusable analytical workflow.
-
-🎯 What the Project Demonstrates
-
-🏦 Portfolio Management
-
-AUM and disbursal analysis
-
-Product concentration
-
-Portfolio mix
-
-Business KPI monitoring
-
-🔴 Credit Risk
-
-DPD bucket analysis
-
-Delinquency monitoring
-
-90+ DPD / NPL analytical proxy
-
-Product-level risk comparison
-
-🟢 Collections
-
-Collection efficiency
-
-Collection gap
-
-Priority account logic
-
-Recovery-focused recommendations
-
-🟣 Customer Intelligence
-
-Customer segmentation
-
-Product penetration
-
-Transaction activity
-
-Customer value signals
-
-🟠 Insurance Cross-sell
-
-Insurance penetration
-
-Product whitespace
-
-Eligible customer opportunity analysis
-
-🤖 AI-assisted Analytics
-
-KPI interpretation
-
-Risk alerts
-
-Concentration insights
-
-Collection recommendations
-
-Cross-sell suggestions
-
-🏗️ Solution Architecture
-
-┌──────────────────────────────────────────────────────────┐
-│                  SYNTHETIC BFSI DATA                    │
-│ Customers │ Loans │ Repayments │ Transactions │ Insurance│
-└────────────────────────────┬─────────────────────────────┘
-                             │
-                             ▼
-┌──────────────────────────────────────────────────────────┐
-│              DATA VALIDATION & PROFILING                 │
-│ Schema • Duplicates • Missing • Range • Quality Checks  │
-└────────────────────────────┬─────────────────────────────┘
-                             │
-                             ▼
-┌──────────────────────────────────────────────────────────┐
-│              ANALYTICS DATA LAYER                        │
-│                 Raw → Staging → Marts                   │
-│                   BigQuery-ready SQL                    │
-└────────────────────────────┬─────────────────────────────┘
-                             │
-              ┌──────────────┼──────────────┐
-              ▼              ▼              ▼
-        ┌──────────┐   ┌──────────┐   ┌────────────┐
-        │ Python/R │   │   SAS    │   │ SQL / BQ   │
-        │ EDA + KPI│   │ Risk     │   │ KPI + Risk │
-        └────┬─────┘   └────┬─────┘   └─────┬──────┘
-             └──────────────┼───────────────┘
-                            ▼
-┌──────────────────────────────────────────────────────────┐
-│                 BI / KPI LAYER                          │
-│                 Power BI • Tableau                      │
-└────────────────────────────┬─────────────────────────────┘
-                             │
-                             ▼
-┌──────────────────────────────────────────────────────────┐
-│              FINSIGHT AI EXECUTIVE APP                  │
-│                  Streamlit • Plotly                     │
-└────────────────────────────┬─────────────────────────────┘
-                             │
-                             ▼
-┌──────────────────────────────────────────────────────────┐
-│                 AI INSIGHT COPILOT                      │
-│        Deterministic Rules + Optional OpenAI            │
-└────────────────────────────┬─────────────────────────────┘
-                             │
-                             ▼
-                  ┌──────────────────────┐
-                  │ Business Decisions   │
-                  │      & Actions       │
-                  └──────────────────────┘
-
-🧰 Technology Stack
+```
+
+> ⚠️ **Disclaimer:** All datasets are **synthetic**. For portfolio & learning purposes only. Not real banking performance.
+
+---
+
+## 💼 Business Problems Solved
+
+<table>
+<thead>
+<tr>
+<th>💬 Business Question</th>
+<th>📌 Analytical Domain</th>
+<th>🔑 Key Metric</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>How large is the active portfolio?</td><td>Portfolio Management</td><td>AUM, Disbursals</td></tr>
+<tr><td>Which products drive AUM concentration?</td><td>Portfolio Mix</td><td>Product-level AUM %</td></tr>
+<tr><td>Where is delinquency concentrated?</td><td>Credit Risk</td><td>Delinquency Rate, DPD</td></tr>
+<tr><td>Which accounts need collection priority?</td><td>Collections</td><td>Collection Gap, Efficiency</td></tr>
+<tr><td>Which customers show product whitespace?</td><td>Customer Intelligence</td><td>Product Penetration</td></tr>
+<tr><td>Where are insurance cross-sell opportunities?</td><td>Cross-sell</td><td>Cross-sell Rate</td></tr>
+<tr><td>How can KPIs become management actions?</td><td>Decision Intelligence</td><td>AI Insight Narrative</td></tr>
+</tbody>
+</table>
+
+---
+
+## 🎯 What This Project Demonstrates
 
 <table>
 <tr>
-<th>Layer</th>
-<th>Technology</th>
-<th>Purpose</th>
-</tr>
+<td width="50%">
 
-<tr>
-<td>Programming</td>
-<td>Python, Pandas, NumPy</td>
-<td>Data preparation & analytics</td>
-</tr>
+**🏦 Portfolio Management**
+- AUM and disbursal analysis
+- Product concentration & mix
+- Business KPI monitoring
 
-<tr>
-<td>Querying</td>
-<td>SQL, BigQuery SQL</td>
-<td>KPI, portfolio & risk analysis</td>
-</tr>
+**🔴 Credit Risk**
+- DPD bucket analysis
+- Delinquency monitoring
+- 90+ DPD / NPL analytical proxy
+- Product-level risk comparison
 
-<tr>
-<td>BI</td>
-<td>Power BI, Tableau</td>
-<td>Business reporting & dashboards</td>
-</tr>
+**🟢 Collections**
+- Collection efficiency
+- Collection gap analysis
+- Priority account logic
+- Recovery-focused recommendations
 
-<tr>
-<td>Application</td>
-<td>Streamlit, Plotly</td>
-<td>Interactive executive analytics</td>
-</tr>
+</td>
+<td width="50%">
 
-<tr>
-<td>Statistics</td>
-<td>R, SAS</td>
-<td>EDA & structured risk analysis</td>
-</tr>
+**🟣 Customer Intelligence**
+- Customer segmentation
+- Product penetration
+- Transaction activity signals
+- Customer value scoring
 
-<tr>
-<td>Spreadsheet</td>
-<td>Advanced Excel</td>
-<td>Reconciliation & analyst workflows</td>
-</tr>
+**🟠 Insurance Cross-sell**
+- Insurance penetration rate
+- Product whitespace identification
+- Eligible customer opportunity
 
-<tr>
-<td>AI</td>
-<td>Deterministic Engine, Optional OpenAI</td>
-<td>Management-ready insights</td>
-</tr>
+**🤖 AI-assisted Analytics**
+- KPI interpretation
+- Risk alerts & concentration insights
+- Collection & cross-sell recommendations
 
-<tr>
-<td>Testing</td>
-<td>Pytest</td>
-<td>Project & data-quality validation</td>
-</tr>
-
-<tr>
-<td>Version Control</td>
-<td>Git, GitHub</td>
-<td>Source-code management</td>
+</td>
 </tr>
 </table>
 
-📁 Project Structure
+---
 
-BFSI-Lending-Risk-Intelligence-Platform/
+## 📐 Solution Architecture
+
+```
+╔══════════════════════════════════════════════════════════╗
+║              🗃️  SYNTHETIC BFSI DATA                    ║
+║   Customers │ Loans │ Repayments │ Transactions │ Insur. ║
+╚════════════════════════╤═════════════════════════════════╝
+                         │
+                         ▼
+╔══════════════════════════════════════════════════════════╗
+║           🔍  DATA VALIDATION & PROFILING               ║
+║   Schema • Duplicates • Missing • Range • Quality       ║
+╚════════════════════════╤═════════════════════════════════╝
+                         │
+                         ▼
+╔══════════════════════════════════════════════════════════╗
+║           🗄️  ANALYTICS DATA LAYER                      ║
+║              Raw → Staging → Marts                      ║
+║                BigQuery-ready SQL                       ║
+╚════════════════════════╤═════════════════════════════════╝
+                         │
+         ┌───────────────┼───────────────┐
+         ▼               ▼               ▼
+   ┌───────────┐   ┌──────────┐   ┌────────────┐
+   │🐍 Python  │   │📊 R/SAS  │   │🔷 SQL/BQ   │
+   │  EDA+KPI  │   │   Risk   │   │ KPI+Risk   │
+   └─────┬─────┘   └────┬─────┘   └─────┬──────┘
+         └───────────────┼───────────────┘
+                         ▼
+╔══════════════════════════════════════════════════════════╗
+║              📊 BI / KPI LAYER                          ║
+║              Power BI  •  Tableau                       ║
+╚════════════════════════╤═════════════════════════════════╝
+                         │
+                         ▼
+╔══════════════════════════════════════════════════════════╗
+║          🖥️  FINSIGHT AI EXECUTIVE APP                  ║
+║               Streamlit  •  Plotly                      ║
+╚════════════════════════╤═════════════════════════════════╝
+                         │
+                         ▼
+╔══════════════════════════════════════════════════════════╗
+║              🤖 AI INSIGHT COPILOT                      ║
+║       Deterministic Rules + Optional OpenAI             ║
+╚════════════════════════╤═════════════════════════════════╝
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │ ✅ Business Actions │
+              └─────────────────────┘
+```
+
+---
+
+## 🧰 Technology Stack
+
+| Layer | Technology | Badge | Purpose |
+|---|---|---|---|
+| **Programming** | Python, Pandas, NumPy | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Data preparation & analytics |
+| **Querying** | SQL, BigQuery SQL | ![SQL](https://img.shields.io/badge/-BigQuery-4285F4?style=flat-square&logo=google-cloud&logoColor=white) | KPI, portfolio & risk analysis |
+| **BI — Reporting** | Power BI | ![PowerBI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) | Business reporting & dashboards |
+| **BI — Visual Analytics** | Tableau | ![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white) | Visual analytics layer |
+| **Application** | Streamlit, Plotly | ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) | Interactive executive dashboard |
+| **Statistics** | R, SAS | ![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white) | EDA & structured risk analysis |
+| **Spreadsheet** | Advanced Excel | ![Excel](https://img.shields.io/badge/-Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white) | Reconciliation & analyst workflows |
+| **AI Layer** | Deterministic + OpenAI | ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white) | Management-ready insights |
+| **Testing** | Pytest | ![Pytest](https://img.shields.io/badge/-Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) | Data-quality validation |
+| **Version Control** | Git, GitHub | ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white) | Source-code management |
+
+---
+
+## 📁 Project Structure
+
+```
+📦 BFSI-Lending-Risk-Intelligence-Platform/
 │
-├── app/
-│   └── app.py
+├── 📂 app/
+│   └── 🐍 app.py                    ← Streamlit Executive Dashboard
 │
-├── data/
-│   ├── raw/
-│   │   ├── customers.csv
-│   │   ├── loans.csv
-│   │   ├── repayments.csv
-│   │   ├── transactions.csv
-│   │   └── insurance_policies.csv
-│   │
-│   └── processed/
-│       ├── customer_priority.csv
-│       └── portfolio_by_state_product.csv
+├── 📂 data/
+│   ├── 📂 raw/
+│   │   ├── 👤 customers.csv
+│   │   ├── 💳 loans.csv
+│   │   ├── 💰 repayments.csv
+│   │   ├── 📲 transactions.csv
+│   │   └── 🛡️ insurance_policies.csv
+│   └── 📂 processed/
+│       ├── 📊 customer_priority.csv
+│       └── 📊 portfolio_by_state_product.csv
 │
-├── docs/
-│   ├── INTERVIEW_STORY.md
-│   └── SETUP.md
+├── 📂 docs/
+│   ├── 📄 INTERVIEW_STORY.md
+│   └── 📄 SETUP.md
 │
-├── excel/
-│   └── FinSight_BFSI_Analytics.xlsx
+├── 📂 excel/
+│   └── 📗 FinSight_BFSI_Analytics.xlsx
 │
-├── powerbi/
-│   ├── README.md
-│   └── screenshots/
+├── 📂 powerbi/
+│   ├── 📄 README.md
+│   └── 🖼️ screenshots/
 │
-├── python/
-│   ├── analysis.py
-│   └── generate_data.py
+├── 📂 python/
+│   ├── 🐍 analysis.py
+│   └── 🐍 generate_data.py
 │
-├── r/
-│   └── eda.R
+├── 📂 r/
+│   └── 📊 eda.R
 │
-├── sas/
-│   └── risk_analysis.sas
+├── 📂 sas/
+│   └── 📈 risk_analysis.sas
 │
-├── sql/
-│   └── bigquery/
-│       ├── 01_staging.sql
-│       ├── 02_mart_portfolio.sql
-│       ├── 03_kpi_queries.sql
-│       ├── 04_credit_risk.sql
-│       ├── 05_collections.sql
-│       └── 06_customer_insurance.sql
+├── 📂 sql/
+│   └── 📂 bigquery/
+│       ├── 🔷 01_staging.sql
+│       ├── 🔷 02_mart_portfolio.sql
+│       ├── 🔷 03_kpi_queries.sql
+│       ├── 🔷 04_credit_risk.sql
+│       ├── 🔷 05_collections.sql
+│       └── 🔷 06_customer_insurance.sql
 │
-├── tableau/
-│   ├── README.md
-│   └── screenshots/
+├── 📂 tableau/
+│   ├── 📄 README.md
+│   └── 🖼️ screenshots/
 │
-├── tests/
-│   └── test_project.py
+├── 📂 tests/
+│   └── 🧪 test_project.py
 │
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
-🗃️ Data Model
+---
+
+## 🗃️ Data Model
 
 <details>
-<summary><b>customers.csv</b> — Customer intelligence</summary>
+<summary><b>👤 customers.csv — Customer Intelligence</b></summary>
 
-Used for:
+<br/>
 
-Geography
-
-Segmentation
-
-Demographic analysis
-
-Customer intelligence
+| Use Case | Fields Involved |
+|---|---|
+| 🗺️ Geography | State, region, branch |
+| 🎯 Segmentation | Customer tier, profile |
+| 📊 Demographic analysis | Age band, income |
+| 🧠 Customer intelligence | Behavioural signals |
 
 </details>
 
 <details>
-<summary><b>loans.csv</b> — Lending & risk</summary>
+<summary><b>💳 loans.csv — Lending & Risk</b></summary>
 
-Used for:
+<br/>
 
-Product analysis
-
-AUM
-
-Disbursals
-
-Outstanding exposure
-
-DPD / risk analysis
+| Use Case | Fields Involved |
+|---|---|
+| 📦 Product analysis | Loan type, product |
+| 💵 AUM | Outstanding principal |
+| 📤 Disbursals | Original principal |
+| ⚠️ DPD / risk analysis | Days past due, status |
 
 </details>
 
 <details>
-<summary><b>repayments.csv</b> — Collections</summary>
+<summary><b>💰 repayments.csv — Collections</b></summary>
 
-Used for:
+<br/>
 
-Amount due
-
-Amount paid
-
-Collection efficiency
-
-Collection gap
-
-</details>
-
-<details>
-<summary><b>transactions.csv</b> — Customer activity</summary>
-
-Used for:
-
-Engagement analysis
-
-Transaction behavior
-
-Segmentation support
+| Use Case | Fields Involved |
+|---|---|
+| 📅 Amount due | Due date, due amount |
+| ✅ Amount paid | Payment date, paid amount |
+| 📈 Collection efficiency | Paid / Due ratio |
+| 🔴 Collection gap | Due − Paid |
 
 </details>
 
 <details>
-<summary><b>insurance_policies.csv</b> — Cross-sell</summary>
+<summary><b>📲 transactions.csv — Customer Activity</b></summary>
 
-Used for:
+<br/>
 
-Insurance penetration
-
-Product whitespace
-
-Cross-sell opportunity
+| Use Case | Fields Involved |
+|---|---|
+| 🔄 Engagement analysis | Transaction frequency |
+| 📊 Transaction behavior | Volume, channel |
+| 🧩 Segmentation support | Activity bands |
 
 </details>
 
-📈 Core KPI Framework
+<details>
+<summary><b>🛡️ insurance_policies.csv — Cross-sell</b></summary>
+
+<br/>
+
+| Use Case | Fields Involved |
+|---|---|
+| 🛡️ Insurance penetration | Policy count vs eligible |
+| 🔲 Product whitespace | No-policy active customers |
+| 🎯 Cross-sell opportunity | Eligible + high-value filter |
+
+</details>
+
+---
+
+## 📈 Core KPI Framework
+
+| KPI | Formula | Business Purpose |
+|---|---|---|
+| 💵 **AUM** | `Σ Outstanding Principal` | Portfolio size |
+| 📤 **Disbursals** | `Σ Original Principal` | Originations / lending volume |
+| ⚠️ **Delinquency Rate** | `Overdue Active / Total Active` | Delinquency monitoring |
+| 🔴 **NPL Proxy** | `DPD ≥ 90 Loans / Active Loans` | Analytical risk signal |
+| ✅ **Collection Efficiency** | `Amount Collected / Amount Due` | Collections performance |
+| 🛡️ **Cross-sell Rate** | `Active Insurance / Eligible Customers` | Insurance penetration |
+| 📊 **Yield** | `Interest Income Proxy / Avg Outstanding` | Portfolio yield analysis |
+
+> ⚠️ **NPL Proxy** is analytical only — not a regulatory NPA/NPL calculation.
+
+---
+
+## 🖥️ Executive Dashboard
+
+The FinSight AI Streamlit app is designed as a **BFSI Executive Command Center** with five analytical modules:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  📊 EXECUTIVE OVERVIEW                                      │
+│  AUM • Disbursals • Loan Count • Delinquency • NPL Proxy   │
+│  Collection Efficiency • Portfolio Health • Concentration   │
+├─────────────────────────────────────────────────────────────┤
+│  🔴 CREDIT RISK                                             │
+│  DPD Distribution • Risk Buckets • 90+ DPD Exposure        │
+│  Product Risk Matrix • Risk Concentration                   │
+├─────────────────────────────────────────────────────────────┤
+│  🟢 COLLECTIONS                                             │
+│  Collection Efficiency • Collection Gap                     │
+│  Recovery Analysis • Priority Accounts                     │
+├─────────────────────────────────────────────────────────────┤
+│  🟣 CUSTOMER & INSURANCE                                    │
+│  Customer Segments • Insurance Penetration                  │
+│  Product Whitespace • Cross-sell Opportunities              │
+├─────────────────────────────────────────────────────────────┤
+│  🤖 AI INSIGHTS                                             │
+│  Risk Alerts • Concentration Insights                       │
+│  Collection Recommendations • Cross-sell Suggestions        │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🤖 AI Insight Copilot
+
+The AI layer uses a **two-tier architecture** — fully functional without an API key:
+
+```
+  Filtered KPI / Analytical Context
+               │
+               ▼
+    ┌─────────────────────────┐
+    │  Deterministic Engine   │  ← Always-on, rule-based
+    │  Risk Alerts            │
+    │  Concentration Signals  │
+    │  Collection Flags       │
+    └──────────┬──────────────┘
+               │
+               ▼  (if OPENAI_API_KEY configured)
+    ┌─────────────────────────┐
+    │  Optional OpenAI Layer  │  ← Management narrative
+    │  GPT-powered narrative  │
+    └──────────┬──────────────┘
+               │
+               ▼
+    Management-ready Insight
+```
+
+### 🛡️ AI Guardrails
+
+| Rule | Why |
+|---|---|
+| 🚫 No customer PII sent to AI | Privacy & compliance |
+| 📌 Insights grounded in KPI data | Factual accuracy |
+| 👁️ Source values always visible | Transparency |
+| ⚖️ Facts separated from recommendations | Decision-maker accountability |
+| ⚠️ Synthetic data labelled clearly | Not real banking performance |
+
+### 🔍 Example AI Signals → Management Actions
+
+| Signal | 🎯 Recommended Action |
+|---|---|
+| 🔴 High 90+ DPD exposure | Prioritize high-risk products / segments |
+| 🟦 High product concentration | Review alongside delinquency trends |
+| 🟢 High collection gap | Focus recovery-targeted accounts |
+| 🟣 Low insurance penetration | Target eligible high-value customers |
 
-KPI
+---
 
-Formula
+## 🧠 SQL / BigQuery Layer
 
-Business Purpose
+```
+Raw Data  →  Staging  →  Analytics Mart  →  KPI Queries  →  Risk / Collections
+```
 
-AUM
+| File | Purpose |
+|---|---|
+| `🔷 01_staging.sql` | Staging layer — clean & type-cast raw data |
+| `🔷 02_mart_portfolio.sql` | Portfolio analytics mart |
+| `🔷 03_kpi_queries.sql` | KPI calculations |
+| `🔷 04_credit_risk.sql` | Credit-risk analysis |
+| `🔷 05_collections.sql` | Collections analysis |
+| `🔷 06_customer_insurance.sql` | Customer + insurance analysis |
 
-Σ Outstanding Principal
+---
 
-Portfolio size
+## 📊 Power BI & Tableau
 
-Disbursals
+### Power BI — Recommended Report Pages
 
-Σ Original Principal
+```
+Executive Overview → Credit Risk → Collections → Customer & Insurance → Cross-sell
+```
 
-Originations / lending volume
+**Visuals:** KPI Cards · Portfolio by Product · DPD Distribution · Risk Matrix · State Analysis · Collection Gap · Customer Segments
 
-Delinquency Rate
+### Tableau — Suggested Views
 
-Overdue Active Loans / Active Loans
+- Portfolio Overview
+- Product Risk Matrix
+- DPD Distribution
+- Collections Gap
+- Insurance Penetration
+- Geography / Branch Analysis
 
-Delinquency monitoring
+> 📁 Screenshots → `powerbi/screenshots/` & `tableau/screenshots/`
 
-NPL Proxy
+---
 
-Loans with DPD >= 90 / Active Loans
+## 🧪 Data Quality & Testing
 
-Analytical risk signal
+Automated Pytest validation covers:
 
-Collection Efficiency
+| Check | Description |
+|---|---|
+| ✅ Required input files | All CSVs present |
+| ✅ Required columns | Schema validation |
+| ✅ Loan ID uniqueness | No duplicate keys |
+| ✅ Non-negative DPD | Range validation |
+| ✅ Monetary values | Non-negative check |
+| ✅ Insurance flags | Valid flag values |
+| ✅ Repayment fields | Completeness check |
 
-Amount Collected / Amount Due
+---
 
-Collections performance
+## 🚀 Quick Start
 
-Cross-sell Rate
-
-Customers with Active Insurance / Eligible Active-loan Customers
-
-Insurance penetration
-
-Yield
-
-Interest Income Proxy / Average Outstanding
-
-Yield analysis where fields exist
-
-⚠️ NPL Proxy is analytical only and is not a regulatory NPA/NPL calculation.
-
-🖥️ Executive Dashboard
-
-FinSight AI is designed as a BFSI Executive Command Center.
-
-📊 Executive Overview
-
-AUM
-
-Disbursals
-
-Loan count
-
-Delinquency
-
-NPL Proxy
-
-Collection Efficiency
-
-Portfolio Health
-
-Product Concentration
-
-🔴 Credit Risk
-
-DPD Distribution
-
-Risk Buckets
-
-90+ DPD Exposure
-
-Product Risk Matrix
-
-Risk Concentration
-
-🟢 Collections
-
-Collection Efficiency
-
-Collection Gap
-
-Recovery Analysis
-
-Priority Accounts
-
-🟣 Customer & Insurance
-
-Customer Segments
-
-Insurance Penetration
-
-Product Whitespace
-
-Cross-sell Opportunities
-
-🤖 AI Insights
-
-Risk Alerts
-
-Concentration Insights
-
-Collection Recommendations
-
-Cross-sell Opportunities
-
-🤖 AI Insight Copilot
-
-FinSight AI uses a two-layer insight architecture:
-
-Filtered KPI / Analytical Context
-                │
-                ▼
-      Deterministic Insight Engine
-                │
-                ▼
-          Always Available
-                │
-                ▼
-        Optional OpenAI Layer
-                │
-                ▼
-      Management-ready Narrative
-
-Deterministic Layer
-
-The dashboard remains functional without an API key.
-
-Optional OpenAI Layer
-
-When OPENAI_API_KEY is configured, the application can generate a management-ready narrative using the filtered analytical context.
-
-🛡️ AI Guardrails
-
-Do not send customer PII
-
-Ground insights in available KPI data
-
-Keep source values visible
-
-Separate facts from recommendations
-
-Never present synthetic results as real banking performance
-
-🔍 Example Management Insights
-
-Signal
-
-Management Action
-
-🔴 90+ DPD exposure
-
-Prioritize high-risk products / segments
-
-🟦 High product concentration
-
-Review concentration alongside delinquency
-
-🟢 High collection gap
-
-Prioritize recovery-focused accounts
-
-🟣 Low insurance penetration
-
-Target eligible high-value customers
-
-🧠 SQL / BigQuery Layer
-
-Raw Data
-   ↓
-Staging
-   ↓
-Analytics Mart
-   ↓
-KPI Queries
-   ↓
-Risk / Collections / Customer Analysis
-
-SQL Modules
-
-File
-
-Purpose
-
-01_staging.sql
-
-Staging layer
-
-02_mart_portfolio.sql
-
-Portfolio analytics mart
-
-03_kpi_queries.sql
-
-KPI calculations
-
-04_credit_risk.sql
-
-Credit-risk analysis
-
-05_collections.sql
-
-Collections analysis
-
-06_customer_insurance.sql
-
-Customer + insurance analysis
-
-📊 Power BI
-
-Recommended Report Pages
-
-Executive Overview → Credit Risk → Collections → Customer & Insurance → Growth / Cross-sell
-
-Recommended Visuals
-
-KPI Cards
-
-Portfolio by Product
-
-DPD Distribution
-
-Risk Matrix
-
-State / Region Analysis
-
-Collection Gap
-
-Customer Segment Analysis
-
-📁 Screenshots:
-
-powerbi/screenshots/
-
-📈 Tableau
-
-Suggested Views
-
-Portfolio Overview
-
-Product Risk Matrix
-
-DPD Distribution
-
-Collections Gap
-
-Insurance Penetration
-
-Geography / Branch Analysis where supported by the dataset
-
-📁 Screenshots:
-
-tableau/screenshots/
-
-📗 Advanced Excel
-
-Supporting workflows:
-
-KPI reconciliation
-
-Pivot analysis
-
-Lookups / aggregation
-
-Exception tracking
-
-Management summaries
-
-📄 Workbook:
-
-excel/FinSight_BFSI_Analytics.xlsx
-
-📉 R & SAS
-
-R
-
-r/eda.R
-
-Exploratory data analysis and statistical visualization.
-
-SAS
-
-sas/risk_analysis.sas
-
-Structured credit-risk and portfolio analysis.
-
-🧪 Data Quality & Testing
-
-Automated validation covers:
-
-Required input files
-
-Required columns
-
-Loan ID uniqueness
-
-Non-negative DPD
-
-Monetary values
-
-Insurance flags
-
-Repayment fields
-
-Run tests
-
-python -m pytest -q
-
-Python compile check
-
-python -m compileall app python tests
-
-🚀 Quick Start
-
-1. Clone
-
+```bash
+# 1️⃣  Clone the repository
 git clone https://github.com/mihirr00051/BFSI-Lending-Risk-Intelligence-Platform.git
 cd BFSI-Lending-Risk-Intelligence-Platform
 
-2. Create environment
-
+# 2️⃣  Create virtual environment
 python -m venv .venv
 
-3. Activate — Windows PowerShell
-
+# 3️⃣  Activate (Windows PowerShell)
 .\.venv\Scripts\Activate.ps1
 
-4. Install
-
+# 4️⃣  Install dependencies
 pip install -r requirements.txt
 
-5. Run dashboard
-
+# 5️⃣  Launch executive dashboard
 python -m streamlit run .\app\app.py
 
-6. Run analytics
-
+# 6️⃣  Run analytics pipeline
 python .\python\analysis.py
 
-7. Run tests
-
+# 7️⃣  Run data-quality tests
 python -m pytest -q
+```
+
+---
+
+## ✅ Project Validation
+
+| Check | Status |
+|---|---|
+| 🖥️ Streamlit dashboard | ✅ Done |
+| 🐍 Python compile check | ✅ Done |
+| 🧪 Data-quality / unit tests | ✅ Done |
+| ⚠️ Synthetic data labelled | ✅ Done |
+| 🔐 Secrets excluded from Git | ✅ Done |
+| 🔷 SQL layer documented | ✅ Done |
+| 📊 BI structure prepared | ✅ Done |
+| 📄 Interview documentation | ✅ Done |
+| 📸 Final Power BI screenshots | ⬜ Pending |
+| 📸 Final Tableau screenshots | ⬜ Pending |
+
+---
+
+## 💼 Interview Pitch
+
+### 🎤 30-Second Version
+
+> *"FinSight AI is an end-to-end BFSI analytics platform I built to simulate a retail lending and customer-intelligence environment. I connected customer, loan, repayment, transaction, and insurance data; built SQL and Python analytics layers; added credit-risk and collections analysis; and exposed the final KPIs through an executive Streamlit dashboard with optional AI-assisted insights."*
+
+---
+
+### 🧠 Key Discussion Areas
+
+| Topic | What to Say |
+|---|---|
+| **Why AUM matters** | Measures portfolio concentration and product-level exposure |
+| **How DPD works** | Days Past Due — the primary credit-risk signal for delinquency monitoring |
+| **Why 90+ DPD** | Used as an analytical NPL proxy; not regulatory NPA |
+| **Collection efficiency** | Amount Collected ÷ Amount Due — measures recovery performance |
+| **Collection priority** | Ranked by gap size and DPD bucket for field-team targeting |
+| **Product whitespace** | Customers with active loans but no insurance = cross-sell pipeline |
+| **Scalability path** | CSV analytics → BigQuery → dbt → Semantic layer → Power BI |
+
+---
+
+## ⚠️ Important Limitations
+
+FinSight AI is a **portfolio simulation**, not a live banking platform.
+
+| ❌ Do NOT present as | ✅ Accurate framing |
+|---|---|
+| Real customer performance | Synthetic simulation |
+| Production underwriting | Analytical prototype |
+| Regulatory NPA reporting | Analytical NPL proxy only |
+| Real profitability | Illustrative yield analysis |
+| Real-time banking data | Static synthetic dataset |
+
+---
+
+## 🔮 Production Roadmap
+
+```
+Kafka / CDC Ingestion
+        ↓
+Cloud Storage (GCS / S3)
+        ↓
+BigQuery Data Warehouse
+        ↓
+dbt Transformation Layer
+        ↓
+Semantic / Metric Layer
+        ↓
+Power BI / Tableau Reports
+        ↓
+ML-based Credit Risk Models
+        ↓
+LLM Insight Service (RAG)
+        ↓
+Monitoring & Governance
+```
+
+**Planned Enhancements**
+
+- ☁️ Cloud-native ingestion pipeline
+- 🔄 Incremental data processing
+- 🌿 dbt transformation layer
+- 🧩 Semantic data model
+- 🤖 ML-based credit-risk scoring
+- 📞 Advanced collections prioritization
+- 💎 Customer lifetime-value analytics
+- 🔐 Role-based access & security
+- 📡 Production monitoring & alerting
+
+---
+
+## ⭐ Why This Project Matters
+
+> The value is not the number of tools used.
+> It is the **ability to convert a business problem into measurable decisions.**
+
+```
+Business Problem  →  Data  →  Validation  →  Analysis
+        →  KPI  →  Visualization  →  Insight  →  Action
+```
 
-✅ Project Validation
+**That is the core analyst-to-decision workflow FinSight AI demonstrates.**
 
-Check
+---
 
-Status
-
-Streamlit dashboard
-
-✅
-
-Python compile check
-
-✅
-
-Data-quality / unit tests
-
-✅
-
-Synthetic data labelled
-
-✅
-
-Secrets excluded from Git
-
-✅
-
-SQL layer documented
-
-✅
-
-BI structure prepared
-
-✅
-
-Interview documentation
-
-✅
-
-Final Power BI screenshots
-
-⬜
-
-Final Tableau screenshots
-
-⬜
-
-🖼️ Project Screenshots
-
-Replace the following files with your actual screenshots before publishing.
-
-Executive Dashboard
-
-screenshots/streamlit-dashboard.png
-
-Power BI
-
-screenshots/powerbi-dashboard.png
-
-Tableau
-
-screenshots/tableau-dashboard.png
-
-AI Insight Copilot
-
-screenshots/ai-insights.png
-
-💼 Interview Pitch
-
-🎤 30-Second Version
-
-“FinSight AI is an end-to-end BFSI analytics platform I built to simulate a retail lending and customer-intelligence environment. I connected customer, loan, repayment, transaction, and insurance data; built SQL and Python analytics layers; added credit-risk and collections analysis; and exposed the final KPIs through an executive Streamlit dashboard with optional AI-assisted insights.”
-
-Key discussion areas
-
-Why AUM matters for portfolio concentration
-
-How DPD acts as a credit-risk signal
-
-Why 90+ DPD is used as an analytical proxy
-
-How collection efficiency is calculated
-
-How collection priority can be ranked
-
-How product whitespace supports cross-sell
-
-How CSV analytics could evolve toward BigQuery and a semantic BI layer
-
-⚠️ Important Limitations
-
-FinSight AI is a portfolio simulation, not a live banking platform.
-
-Do not present it as:
-
-Real customer performance
-
-Production underwriting
-
-Regulatory NPA reporting
-
-Real profitability
-
-Real-time banking data
-
-Production-grade model-risk approval
-
-unless those capabilities are actually implemented and validated.
-
-🔮 Production Roadmap
-
-Kafka / CDC
-     ↓
-Cloud Storage
-     ↓
-BigQuery
-     ↓
-dbt / Data Quality
-     ↓
-Semantic Layer
-     ↓
-Power BI / Tableau
-     ↓
-ML Risk Models
-     ↓
-LLM Insight Service
-     ↓
-Monitoring / Governance
-
-Future Enhancements
-
-Cloud-native ingestion
-
-Incremental data pipelines
-
-dbt transformation layer
-
-Semantic data model
-
-ML-based credit-risk scoring
-
-Advanced collections prioritization
-
-Customer lifetime-value analytics
-
-Role-based access and security
-
-Production monitoring & governance
-
-⭐ Why This Project Matters
-
-The value of this project is not the number of tools used.
-
-It is the ability to convert a business problem into measurable decisions:
+## 👨‍💻 Author
 
 <div align="center">
 
-Business Problem
+### Mihir Dobariya
+**Data Analyst · AI/ML Engineer · GenAI & Analytics**
 
-↓
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mihirr51)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mihirr00051)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mihirdobariyaofficial@gmail.com)
 
-Data
+<br/>
 
-↓
-
-Validation
-
-↓
-
-Analysis
-
-↓
-
-KPI
-
-↓
-
-Visualization
-
-↓
-
-Insight
-
-↓
-
-Business Action
+*📍 Bengaluru, Karnataka, India*
 
 </div>
 
-That is the core analyst-to-decision workflow demonstrated by FinSight AI.
+---
 
-👨‍💻 Author
+## 📄 License
 
-<div align="center">
+This project is released under the [MIT License](LICENSE).
 
-Mihirr Dobariya
-
-Data Analyst • AI/ML Engineer • GenAI & Analytics
-
-
-
-
-
-</div>
-
-📄 License
-
-This project is released under the MIT License.
+---
 
 <div align="center">
 
-⭐ If this project is useful, consider starring the repository.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=120&section=footer" width="100%"/>
 
-Built with Python • SQL • BI • Analytics • AI
+**⭐ Found this useful? Give it a star on GitHub!**
+
+*Built with* ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PowerBI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![AI](https://img.shields.io/badge/-AI-412991?style=flat-square&logo=openai&logoColor=white)
 
 </div>
