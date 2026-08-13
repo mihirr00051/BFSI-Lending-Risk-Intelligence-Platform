@@ -1,10 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=FinSight%20AI&fontSize=72&fontColor=e94560&fontAlignY=40&desc=BFSI%20Decision%20Intelligence%20%26%20Analytics%20Platform&descSize=20&descAlignY=62&descColor=a8b2d8&animation=fadeIn" width="100%"/>
+<div align="center">
+
+<img src="assets/finsight-header.svg"
+     alt="FinSight AI — BFSI Decision Intelligence & Analytics Platform"
+     width="100%"/>
 
 <br/>
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)
 [![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](#)
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
@@ -13,13 +17,12 @@
 
 <br/>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
-[![Domain: BFSI](https://img.shields.io/badge/Domain-BFSI%20%7C%20FinTech-e94560?style=flat-square)](#)
-[![Type: Portfolio](https://img.shields.io/badge/Type-Portfolio%20Project-7c3aed?style=flat-square)](#)
-[![Data: Synthetic](https://img.shields.io/badge/Data-Synthetic%20Only-f59e0b?style=flat-square)](#)
-[![Status: Active](https://img.shields.io/badge/Status-Active-22c55e?style=flat-square)](#)
+[![Domain](https://img.shields.io/badge/Domain-BFSI%20%7C%20FinTech-e94560?style=flat-square)](#)
+[![Type](https://img.shields.io/badge/Type-Portfolio%20Project-7c3aed?style=flat-square)](#)
+[![Data](https://img.shields.io/badge/Data-Synthetic%20Only-f59e0b?style=flat-square)](#)
+[![Status](https://img.shields.io/badge/Status-Active-22c55e?style=flat-square)](#)
 
-<br/>
+</div>
 
 > **Enterprise-grade BFSI Analytics · Credit Risk · Collections · Customer Intelligence**
 > 
