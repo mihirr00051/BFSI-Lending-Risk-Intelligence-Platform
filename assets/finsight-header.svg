@@ -1,1 +1,17 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="330" viewBox="0 0 1600 330">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07111f"/><stop offset="50%" stop-color="#102a43"/><stop offset="100%" stop-color="#0f5c63"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#2dd4bf"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+</defs>
+<rect width="1600" height="330" rx="28" fill="url(#bg)"/>
+<circle cx="1390" cy="80" r="150" fill="#38bdf8" opacity=".10" filter="url(#blur)"/>
+<circle cx="1180" cy="290" r="150" fill="#2dd4bf" opacity=".10" filter="url(#blur)"/>
+<rect x="44" y="38" width="1512" height="254" rx="24" fill="#ffffff" fill-opacity=".035" stroke="#ffffff" stroke-opacity=".12"/>
+<rect x="76" y="70" width="7" height="170" rx="3.5" fill="url(#accent)"/>
+<text x="118" y="112" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#67e8f9" letter-spacing="3">ENTERPRISE BFSI ANALYTICS</text>
+<text x="118" y="170" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#ffffff">FinSight AI</text>
+<text x="118" y="214" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" fill="#dbeafe">BFSI Decision Intelligence &amp; Analytics Platform</text>
+<text x="118" y="252" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#a9bad0">Credit Risk • Collections • Customer Intelligence • Cross-sell • AI-assisted Insights</text>
+<g transform="translate(1220,94)"><rect width="250" height="130" rx="20" fill="#06111d" fill-opacity=".55" stroke="#ffffff" stroke-opacity=".10"/><text x="125" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#94a3b8">DECISION FLOW</text><text x="125" y="75" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">DATA → KPI</text><text x="125" y="101" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">INSIGHT → ACTION</text></g>
+</svg>
