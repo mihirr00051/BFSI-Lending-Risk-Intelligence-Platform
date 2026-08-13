@@ -619,7 +619,7 @@ Business Problem  →  Data  →  Validation  →  Analysis
 <div align="center">
 
 ### Mihirr Dobariya
-**Data Analyst  Business Intelligence**
+**Data Analyst | Business Intelligence (BI) Analyst | Business Analyst**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mihirr51)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mihirr00051)
