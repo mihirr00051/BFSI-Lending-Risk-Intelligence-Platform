@@ -618,8 +618,8 @@ Business Problem  →  Data  →  Validation  →  Analysis
 
 <div align="center">
 
-### Mihir Dobariya
-**Data Analyst · AI/ML Engineer · GenAI & Analytics**
+### Mihirr Dobariya
+**Data Analyst  Business Intelligence **
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mihirr51)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mihirr00051)
